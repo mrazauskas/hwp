@@ -3,7 +3,7 @@
 const { test, describe } = require('node:test')
 const assert = require('node:assert/strict')
 const { promisify } = require('node:util')
-const hwp = require('..')
+const hwp = require('hwp')
 
 const immediate = promisify(setImmediate)
 

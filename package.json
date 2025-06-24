@@ -4,6 +4,14 @@
   "description": "HighWatermark Processing with Async Iterators",
   "main": "index.js",
   "types": "index.d.ts",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "scripts": {
     "lint": "eslint . --fix",
     "test": "eslint . && node --test && npm run test:types",

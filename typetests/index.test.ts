@@ -1,5 +1,5 @@
 import { expect, test } from 'tstyche'
-import * as hwp from '..'
+import * as hwp from 'hwp'
 
 test('mapIterator', () => {
   async function * generator () {
